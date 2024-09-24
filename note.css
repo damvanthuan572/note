@@ -1,0 +1,215 @@
+* {
+  background-image: url(./hinhanh/background.jpg);
+
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  height: 120px;
+  width: auto;
+  margin-left: 10%;
+}
+
+.container {
+  width: 1200px;
+  border-bottom: 4px solid #9b1f53;
+}
+
+.nav {
+  width: 1200px;
+  height: 65px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nav .logo {
+  float: left;
+}
+
+.nav .logo img {
+  max-width: 150px;
+  height: auto;
+  padding-top: 10px;
+}
+
+.nav .main_list {
+  height: 65px;
+  float: right;
+}
+
+.nav .main_list ul {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  list-style: none;
+}
+
+.nav .main_list ul li {
+  width: auto;
+  height: 65px;
+  padding-right: 3rem;
+}
+
+.nav .main_list ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 65px;
+  font-size: 25px;
+}
+
+.nav .main_list ul li a:hover {
+  color: #9b1f53;
+}
+
+.button {
+  height: 35px;
+  background-color: #9b1f53;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.button1 {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.button1:hover {
+  color: #9b1f53;
+  background-color: #fff;
+}
+.note_list {
+  width: 1200px;
+  height: 1200px;
+  margin-left: 10%;
+}
+.btn {
+  width: 180px;
+  height: auto;
+}
+#addNote {
+  width: 200px;
+  height: 180px;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 40px;
+  border: none;
+}
+#addNote i {
+  background: #fff;
+}
+.myNote {
+  width: 200px;
+  height: 180px;
+  border-radius: 4px;
+  background: #fff;
+  border: none;
+
+  border: none;
+  position: relative;
+}
+.myNote p {
+  margin-top: 11px;
+  background: #fff;
+}
+.myNote h2 {
+  background: #fff;
+}
+
+.note {
+  display: flex;
+  gap: 20px;
+}
+.newNotes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.myNote button {
+  width: 80px;
+  height: 27px;
+  background: #e16f04;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.addForm {
+  display: none;
+  width: 300px;
+  padding: 21px;
+  border-radius: 3px;
+  background: #fff;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 40%);
+  top: -7%;
+}
+.addForm input {
+  width: 90%;
+  height: 12px;
+  padding: 11px;
+
+  font-size: 20px;
+  border-radius: 3px;
+}
+.inputs {
+  margin-top: 22px;
+  background: #fff;
+}
+textarea {
+  width: 93%;
+  padding: 5px;
+  font-size: 18px;
+  background: #fff;
+}
+.inputs p {
+  font-size: 20px;
+  background: #fff;
+}
+.inputs input {
+  background: #fff;
+}
+#addBtn {
+  width: 100%;
+  height: 36px;
+  background: rgb(255, 111, 0);
+  color: white;
+  font-size: 24px;
+  margin-top: 22px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.head button {
+  border: none;
+
+  font-size: 33px;
+  cursor: pointer;
+  background: #fff;
+}
+.head h2 {
+  background: #fff;
+}
+.head i {
+  background: #fff;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="note.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="container">
+          <div class="logo">
+            <a href="#">
+              <img src="./hinhanh/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-comments" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-fw fa-user"></i></a>
+              </li>
+              <a href=""
+                ><button class="button button1">Start for free</button></a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="note_list">
+      <div class="note">
+        <div class="btn">
+          <button id="addNote">
+            <i class="fa-regular fa-square-plus"></i> <br />Add Note
+          </button>
+        </div>
+        <div class="newNotes"></div>
+      </div>
+      <div class="addForm">
+        <div class="head">
+          <h2>Add a Note</h2>
+          <button class="icon"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="inputs">
+          <p>Tittle</p>
+          <input type="text" id="tittle" value="" />
+        </div>
+        <div class="inputs">
+          <p>Discription</p>
+          <textarea rows="5px" cols="30" id="discription" value=""></textarea>
+        </div>
+        <button id="addBtn">Add Note</button>
+      </div>
+    </div>
+
+    <script src="note.js"></script>
+  </body>
+</html>
